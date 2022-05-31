@@ -58,7 +58,7 @@
     "Pair_ETH_USDC": "0x4e8d753812879407f8341105eef9a43fc8f350A2",
     "oracle": "0x37ac0cb24b5DA520B653A5D94cFF26EB08d4Dc02",
     "CrowdProposalFactory": "0x1CcD74460eE10f25c3A24c08972F39215393Fa58",
-    "Comptroller": "0x5eAe89DC1C671724A672ff0630122ee834098657",
+    "Comptroller": "0xC0421A129E775680BD22Af5143098075eD6B85d5",
     "PriceFeedPoster": "0x83563ba7F1B093aae57Fe876f8D870f8a1508886",
     "CommunityComptroller": "0xA06058e40d6a6Dd0D5Dc4c6C394864BCA74d3002",
     "PriceOracle": "0x37ac0cb24b5DA520B653A5D94cFF26EB08d4Dc02",
@@ -134,7 +134,7 @@
   },
   "Unitroller": {
     "description": "Unitroller",
-    "address": "0x5eAe89DC1C671724A672ff0630122ee834098657"
+    "address": "0xC0421A129E775680BD22Af5143098075eD6B85d5"
   },
   "Comptroller": {
     "StdComptrollerG1": {
