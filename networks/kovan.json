@@ -4,7 +4,7 @@
     "CompoundLens": "0x07d00590eb0ee208eeed396286ef16b92ab283e4",
     "Base200bps_Slope2000bps_Jump20000bps_Kink90": "0x255559E3608a4251F04C227E57F24d9af921940E",
     "Base200bps_Slope3000bps": "0x7BDf14574c844cD9B75073f91Bb1aEAb44aB0529",
-    "Base500bps_Slope1200bps": "0xb9c437ff606d51666aC98078c4693f32A6091ac7",
+    "Base500bps_Slope1200bps": "0x3e0dEb47A53efEdb77E908E15bc0E7bfF3eC24A0",
     "Base200bps_Slope1000bps": "0xC1B496A3a4Eee148AEefD86Af7E2AB1CeB53605C",
     "StdComptrollerG1": "0x670d9C026025Ce445D7517EBD9e3dE770527D44d",
     "cErc20Delegate": "0x04356935Dc49753aD1Afb8EeebD0ae473eF1D6AB",
@@ -23,12 +23,12 @@
     "Jug": "0xcbB7718c9F39d05aEEDE1c472ca8Bf804b2f1EaD",
     "Pot": "0xEA190DBDC7adF265260ec4dA6e9675Fd4f5A78bb",
     "cDaiDelegate": "0xC8016288dB9dFE5a1cA2503879dCDE8807377186",
-    "Unitroller": "0x6De9669F0A80dEb5535f94b65B33F81d1a8F1Db0",
+    "Unitroller": "0xf1a1dFAefabA7d23CE64CCED4d32f72ed7c24Cbe",
     "cZRX": "0xAf45ae737514C8427D373D50Cd979a242eC59e5a",
     "cWBTC": "0xa1fAA15655B0e7b6B6470ED3d096390e6aD93Abb",
     "cUSDT": "0x3f0A0EA2f86baE6362CF9799B523BA06647Da018",
     "cUSDC": "0x4a92E71227D294F041BD82dd8f78591B75140d63",
-    "cETH": "0x41B5844f4680a8C38fBb695b7F9CFd1F64474a72",
+    "cETH": "0xAe2f3405d7EcFF01346884C21CfA840A674Ea05D",
     "cSAI": "0xb3f7fB482492f4220833De6D6bfCC81157214bEC",
     "cREP": "0xA4eC170599a1Cf87240a35b9B1B8Ff823f448b57",
     "cBAT": "0x4a77fAeE9650b09849Ff459eA1476eaB01606C7a",
@@ -56,13 +56,13 @@
     "Pair_REP_ETH": "0x74853144626d7171FdeDfd3E0D4ed52d718A4eca",
     "Pair_BAT_ETH": "0x574300Af7ff45485254538303718Cc7B032d1f30",
     "Pair_ETH_USDC": "0x4e8d753812879407f8341105eef9a43fc8f350A2",
-    "oracle": "0x37ac0cb24b5DA520B653A5D94cFF26EB08d4Dc02",
+    "oracle": "0x31C749B9938F80DfFd9C7FE5a74F2d2F327b189d",
     "CrowdProposalFactory": "0x1CcD74460eE10f25c3A24c08972F39215393Fa58",
-    "Comptroller": "0x6De9669F0A80dEb5535f94b65B33F81d1a8F1Db0",
+    "Comptroller": "0xf1a1dFAefabA7d23CE64CCED4d32f72ed7c24Cbe",
     "PriceFeedPoster": "0x83563ba7F1B093aae57Fe876f8D870f8a1508886",
     "CommunityComptroller": "0xA06058e40d6a6Dd0D5Dc4c6C394864BCA74d3002",
-    "PriceOracle": "0x37ac0cb24b5DA520B653A5D94cFF26EB08d4Dc02",
-    "PriceOracleProxy": "0x37ac0cb24b5DA520B653A5D94cFF26EB08d4Dc02",
+    "PriceOracle": "0x31C749B9938F80DfFd9C7FE5a74F2d2F327b189d",
+    "PriceOracleProxy": "0x31C749B9938F80DfFd9C7FE5a74F2d2F327b189d",
     "TemporaryComptroller": "0x4cc3cc0b761b4f5581af978dd3b2269a784ec03a"
   },
   "Blocks": {
@@ -70,7 +70,7 @@
     "CompoundLens": 27881831,
     "Base200bps_Slope2000bps_Jump20000bps_Kink90": 18812463,
     "Base200bps_Slope3000bps": 18751027,
-    "Base500bps_Slope1200bps": 18751032,
+    "Base500bps_Slope1200bps": 31944836,
     "Base200bps_Slope1000bps": 18751037,
     "StdComptrollerG1": 18958737,
     "cErc20Delegate": 18751047,
@@ -86,12 +86,12 @@
     "StdComptrollerG3": 18963197,
     "Timelock": 18751096,
     "cDaiDelegate": 18751101,
-    "Unitroller": 18751106,
+    "Unitroller": 31944840,
     "cZRX": 18751114,
     "cWBTC": 18751119,
     "cUSDT": 18751123,
     "cUSDC": 18751127,
-    "cETH": 18751132,
+    "cETH": 31944863,
     "cSAI": 18751137,
     "cREP": 18751142,
     "cBAT": 18751147,
@@ -117,10 +117,10 @@
     "Pair_REP_ETH": 19887885,
     "Pair_BAT_ETH": 19887886,
     "Pair_ETH_USDC": 19887887,
-    "oracle": 18751077,
+    "oracle": 31944836,
     "CrowdProposalFactory": 24096638,
     "CommunityComptroller": 19552094,
-    "PriceOracle": 18751077
+    "PriceOracle": 31944836
   },
   "PriceFeed": {},
   "Maximillion": {
@@ -134,7 +134,7 @@
   },
   "Unitroller": {
     "description": "Unitroller",
-    "address": "0x6De9669F0A80dEb5535f94b65B33F81d1a8F1Db0"
+    "address": "0xf1a1dFAefabA7d23CE64CCED4d32f72ed7c24Cbe"
   },
   "Comptroller": {
     "StdComptrollerG1": {
@@ -341,9 +341,9 @@
       "name": "Compound ETH",
       "symbol": "cETH",
       "decimals": 8,
-      "address": "0x41B5844f4680a8C38fBb695b7F9CFd1F64474a72",
+      "address": "0xAe2f3405d7EcFF01346884C21CfA840A674Ea05D",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
-      "admin": "0xE3e07F4F3E2F5A5286a99b9b8DEed08B8e07550B",
+      "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "",
       "contract": "CEther"
     },
@@ -530,7 +530,7 @@
       "name": "Base500bps_Slope1200bps",
       "contract": "WhitePaperInterestRateModel",
       "description": "WhitePaperInterestRateModel  baseRate=50000000000000000 multiplier=120000000000000000",
-      "address": "0xb9c437ff606d51666aC98078c4693f32A6091ac7",
+      "address": "0x3e0dEb47A53efEdb77E908E15bc0E7bfF3eC24A0",
       "base": "50000000000000000",
       "slope": "120000000000000000"
     },
