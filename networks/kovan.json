@@ -299,7 +299,7 @@
       "symbol": "BAT",
       "decimals": 18,
       "address": "0x482dC9bB08111CB875109B075A40881E48aE02Cd",
-      "contract": "FaucetToken"
+      "contract": "BAToken"
     },
     "FAL": {
       "name": "Falopa Token",
