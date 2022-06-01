@@ -125,8 +125,8 @@
   "PriceFeed": {},
   "Maximillion": {
     "description": "Maximillion",
-    "cEtherAddress": "0x41B5844f4680a8C38fBb695b7F9CFd1F64474a72",
-    "address": "0xC363f83902Ac614F318b04771d21D25aC0d73be5"
+    "cEtherAddress": "0xAe2f3405d7EcFF01346884C21CfA840A674Ea05D",
+    "address": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf"
   },
   "CompoundLens": {
     "name": "CompoundLens",
@@ -460,9 +460,9 @@
       "name": "Compound ETH",
       "symbol": "cETH",
       "decimals": 8,
-      "address": "0x41B5844f4680a8C38fBb695b7F9CFd1F64474a72",
+      "address": "0xAe2f3405d7EcFF01346884C21CfA840A674Ea05D",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
-      "admin": "0xE3e07F4F3E2F5A5286a99b9b8DEed08B8e07550B",
+      "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "",
       "contract": "CEther"
     },
@@ -578,7 +578,7 @@
   },
   "PriceOracle": {
     "description": "SimplePriceOracle",
-    "address": "0x37ac0cb24b5DA520B653A5D94cFF26EB08d4Dc02"
+    "address": "0x31C749B9938F80DfFd9C7FE5a74F2d2F327b189d"
   },
   "PriceOracleProxy": {},
   "TemporaryComptroller": {
