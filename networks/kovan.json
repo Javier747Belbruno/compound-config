@@ -16,6 +16,7 @@
     "REP": "0x50DD65531676F718B018De3dc48F92B53D756996",
     "DAI": "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa",
     "BAT": "0x482dC9bB08111CB875109B075A40881E48aE02Cd",
+    "FAL": "0xe565538f158FFe4C0D890B62E4eaa49Ce971704c",
     "Fauceteer": "0x916518711a75a98Ac00e8E3386d036F7eA56A484",
     "PriceFeed": "0xbBdE93962Ca9fe39537eeA7380550ca6845F8db7",
     "StdComptrollerG3": "0xbDF4D9A65023CAf0DaDa604cf46C44D5aab0bb0C",
@@ -32,6 +33,7 @@
     "cSAI": "0xb3f7fB482492f4220833De6D6bfCC81157214bEC",
     "cREP": "0xA4eC170599a1Cf87240a35b9B1B8Ff823f448b57",
     "cBAT": "0x4a77fAeE9650b09849Ff459eA1476eaB01606C7a",
+    "cFAL": "0x08d8BD61aaB8D37f88fa8da35E3274CbEf66942B",
     "Reservoir": "0x33deD5C4eA51dBC7AF955396839655EFe13E3F1b",
     "GovernorAlpha": "0x665a5f09716d63D9256934855b0CE2056a5C4Cf8",
     "GovernorBravo": "0x100044C436dfb66FF106157970bC89f243411Ffd",
@@ -81,6 +83,7 @@
     "SAI": 18751064,
     "REP": 18751069,
     "BAT": 18751073,
+    "FAL": 31946630,
     "Fauceteer": 18751074,
     "PriceFeed": 19887888,
     "StdComptrollerG3": 18963197,
@@ -95,6 +98,7 @@
     "cSAI": 18751137,
     "cREP": 18751142,
     "cBAT": 18751147,
+    "cFAL": 31946634,
     "Reservoir": 18751158,
     "GovernorAlpha": 18964189,
     "GovernorBravo": 23142670,
@@ -295,7 +299,14 @@
       "symbol": "BAT",
       "decimals": 18,
       "address": "0x482dC9bB08111CB875109B075A40881E48aE02Cd",
-      "contract": "BAToken"
+      "contract": "FaucetToken"
+    },
+    "FAL": {
+      "name": "Falopa Token",
+      "symbol": "FAL",
+      "decimals": 18,
+      "address": "0xe565538f158FFe4C0D890B62E4eaa49Ce971704c",
+      "contract": "FaucetToken"
     },
     "cZRX": {
       "name": "Compound ZRX",
@@ -375,6 +386,16 @@
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xE3e07F4F3E2F5A5286a99b9b8DEed08B8e07550B",
       "underlying": "0x482dC9bB08111CB875109B075A40881E48aE02Cd",
+      "contract": "CErc20Immutable"
+    },
+    "cFAL": {
+      "name": "Compound Falopa Token",
+      "symbol": "cFAL",
+      "decimals": 8,
+      "address": "0x08d8BD61aaB8D37f88fa8da35E3274CbEf66942B",
+      "initial_exchange_rate_mantissa": "200000000000000000000000000",
+      "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
+      "underlying": "0xe565538f158FFe4C0D890B62E4eaa49Ce971704c",
       "contract": "CErc20Immutable"
     },
     "cDAI": {
@@ -494,6 +515,16 @@
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xE3e07F4F3E2F5A5286a99b9b8DEed08B8e07550B",
       "underlying": "0x482dC9bB08111CB875109B075A40881E48aE02Cd",
+      "contract": "CErc20Immutable"
+    },
+    "cFAL": {
+      "name": "Compound Falopa Token",
+      "symbol": "cFAL",
+      "decimals": 8,
+      "address": "0x08d8BD61aaB8D37f88fa8da35E3274CbEf66942B",
+      "initial_exchange_rate_mantissa": "200000000000000000000000000",
+      "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
+      "underlying": "0xe565538f158FFe4C0D890B62E4eaa49Ce971704c",
       "contract": "CErc20Immutable"
     },
     "cDAI": {
