@@ -16,7 +16,8 @@
     "REP": "0x50DD65531676F718B018De3dc48F92B53D756996",
     "DAI": "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa",
     "BAT": "0x482dC9bB08111CB875109B075A40881E48aE02Cd",
-    "FAL": "0xe565538f158FFe4C0D890B62E4eaa49Ce971704c",
+    "BART": "0xd6edA14a296721Dc16a18F0E1d1dE7217077Fd5B",
+    "LISA": "0x5f1d056D8d4912414dF3E0005BBa91C346692177",
     "Fauceteer": "0x916518711a75a98Ac00e8E3386d036F7eA56A484",
     "PriceFeed": "0xbBdE93962Ca9fe39537eeA7380550ca6845F8db7",
     "StdComptrollerG3": "0xbDF4D9A65023CAf0DaDa604cf46C44D5aab0bb0C",
@@ -33,7 +34,8 @@
     "cSAI": "0xb3f7fB482492f4220833De6D6bfCC81157214bEC",
     "cREP": "0xA4eC170599a1Cf87240a35b9B1B8Ff823f448b57",
     "cBAT": "0xE633B2fFd1A9fD5e78d857C39535Fce5B26A0c75",
-    "cFAL": "0x08d8BD61aaB8D37f88fa8da35E3274CbEf66942B",
+    "cBART": "0x67869C3114F0c7B7066CA2f66F73De3A57A5791a",
+    "cLISA": "0x45d0457BcA0BF9066586C2896D594675F442246b",
     "Reservoir": "0x33deD5C4eA51dBC7AF955396839655EFe13E3F1b",
     "GovernorAlpha": "0x665a5f09716d63D9256934855b0CE2056a5C4Cf8",
     "GovernorBravo": "0x100044C436dfb66FF106157970bC89f243411Ffd",
@@ -83,7 +85,8 @@
     "SAI": 18751064,
     "REP": 18751069,
     "BAT": 18751073,
-    "FAL": 31946630,
+    "BART": 31946630,
+    "LISA": 31946630,
     "Fauceteer": 18751074,
     "PriceFeed": 19887888,
     "StdComptrollerG3": 18963197,
@@ -98,7 +101,8 @@
     "cSAI": 18751137,
     "cREP": 18751142,
     "cBAT": 32105583,
-    "cFAL": 31946634,
+    "cBART": 31946634,
+    "cLISA": 31946634,
     "Reservoir": 18751158,
     "GovernorAlpha": 18964189,
     "GovernorBravo": 23142670,
@@ -301,11 +305,18 @@
       "address": "0x482dC9bB08111CB875109B075A40881E48aE02Cd",
       "contract": "BAToken"
     },
-    "FAL": {
-      "name": "Falopa Token",
-      "symbol": "FAL",
+    "BART": {
+      "name": "BART",
+      "symbol": "BART",
       "decimals": 18,
-      "address": "0xe565538f158FFe4C0D890B62E4eaa49Ce971704c",
+      "address": "0xd6edA14a296721Dc16a18F0E1d1dE7217077Fd5B",
+      "contract": "FaucetToken"
+    },
+    "LISA": {
+      "name": "LISA",
+      "symbol": "LISA",
+      "decimals": 18,
+      "address": "0x5f1d056D8d4912414dF3E0005BBa91C346692177",
       "contract": "FaucetToken"
     },
     "cZRX": {
@@ -388,15 +399,25 @@
       "underlying": "0x482dC9bB08111CB875109B075A40881E48aE02Cd",
       "contract": "CErc20Immutable"
     },
-    "cFAL": {
-      "name": "Compound Falopa Token",
-      "symbol": "cFAL",
+    "cBART": {
+      "name": "Compound BART",
+      "symbol": "cBART",
       "decimals": 8,
-      "address": "0x08d8BD61aaB8D37f88fa8da35E3274CbEf66942B",
+      "address": "0x67869C3114F0c7B7066CA2f66F73De3A57A5791a",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
-      "underlying": "0xe565538f158FFe4C0D890B62E4eaa49Ce971704c",
-      "contract": "CErc20Immutable"
+      "underlying": "0xd6edA14a296721Dc16a18F0E1d1dE7217077Fd5B",
+      "contract": "CErc20Delegator"
+    },
+    "cLISA": {
+      "name": "Compound LISA",
+      "symbol": "cLISA",
+      "decimals": 8,
+      "address": "0x45d0457BcA0BF9066586C2896D594675F442246b",
+      "initial_exchange_rate_mantissa": "200000000000000000000000000",
+      "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
+      "underlying": "0x5f1d056D8d4912414dF3E0005BBa91C346692177",
+      "contract": "CErc20Delegator"
     },
     "cDAI": {
       "name": "Compound DAI",
@@ -434,6 +455,16 @@
       "address": "0xC8016288dB9dFE5a1cA2503879dCDE8807377186",
       "contract": "CErc20Delegate",
       "description": "Delegate CErc20Delegate"
+    },
+    "cBARTDelegate": {
+      "address": "0x8aE04652D37d7FB032C95042601FF96925Ee4825",
+      "contract": "CErc20Delegate",
+      "description": "Standard CErc20 Delegate"
+    },
+    "cLISADelegate": {
+      "address": "0x64B1B2F76b009bDF4F7607A6fd0954B4EC21dEa1",
+      "contract": "CErc20Delegate",
+      "description": "Standard CErc20 Delegate"
     }
   },
   "cTokens": {
@@ -517,15 +548,25 @@
       "underlying": "0x482dC9bB08111CB875109B075A40881E48aE02Cd",
       "contract": "CErc20Immutable"
     },
-    "cFAL": {
-      "name": "Compound Falopa Token",
-      "symbol": "cFAL",
+    "cBART": {
+      "name": "Compound BART",
+      "symbol": "cBART",
       "decimals": 8,
-      "address": "0x08d8BD61aaB8D37f88fa8da35E3274CbEf66942B",
+      "address": "0x67869C3114F0c7B7066CA2f66F73De3A57A5791a",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
-      "underlying": "0xe565538f158FFe4C0D890B62E4eaa49Ce971704c",
-      "contract": "CErc20Immutable"
+      "underlying": "0xd6edA14a296721Dc16a18F0E1d1dE7217077Fd5B",
+      "contract": "CErc20Delegator"
+    },
+    "cLISA": {
+      "name": "Compound LISA",
+      "symbol": "cLISA",
+      "decimals": 8,
+      "address": "0x45d0457BcA0BF9066586C2896D594675F442246b",
+      "initial_exchange_rate_mantissa": "200000000000000000000000000",
+      "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
+      "underlying": "0x5f1d056D8d4912414dF3E0005BBa91C346692177",
+      "contract": "CErc20Delegator"
     },
     "cDAI": {
       "name": "Compound DAI",
