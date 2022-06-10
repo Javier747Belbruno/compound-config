@@ -91,7 +91,7 @@
     "PriceFeed": 19887888,
     "StdComptrollerG3": 18963197,
     "Timelock": 18751096,
-    "cDaiDelegate": 18751101,
+    "cDaiDelegate": 32108590,
     "Unitroller": 31944840,
     "cZRX": 18751114,
     "cWBTC": 18751119,
@@ -108,7 +108,7 @@
     "GovernorBravo": 23142670,
     "DSR_Kink_9000bps_Jump_12000bps_AssumedRF_20000bps": 18751174,
     "Maximillion": 18751178,
-    "cDAI": 18751182,
+    "cDAI": 32108592,
     "StdComptrollerG2": 18958731,
     "Base200bps_Slope2000bps_Jump20000bps_Kink90_bad": 18746562,
     "Base200bps_Slope2000bps_Jump20000bps_Kink90_bad_2": 18746562,
@@ -472,11 +472,11 @@
       "name": "Compound ZRX",
       "symbol": "cZRX",
       "decimals": 8,
-      "address": "0xAf45ae737514C8427D373D50Cd979a242eC59e5a",
+      "address": "0x9e2ACD63f428f433130Bc606213Ba77F070D3CAF",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
-      "admin": "0xE3e07F4F3E2F5A5286a99b9b8DEed08B8e07550B",
+      "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "0x162c44e53097e7B5aaE939b297ffFD6Bf90D1EE3",
-      "contract": "CErc20Immutable"
+      "contract": "CErc20Delegator"
     },
     "cWBTC": {
       "name": "Compound WBTC",
@@ -492,9 +492,9 @@
       "name": "Compound USDT",
       "symbol": "cUSDT",
       "decimals": 8,
-      "address": "0x3f0A0EA2f86baE6362CF9799B523BA06647Da018",
+      "address": "0x161D47172A9691D56a81aa09881aF4f2dfaE89f1",
       "initial_exchange_rate_mantissa": "200000000000000",
-      "admin": "0xE3e07F4F3E2F5A5286a99b9b8DEed08B8e07550B",
+      "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "0x07de306FF27a2B630B1141956844eB1552B956B5",
       "contract": "CErc20Delegator"
     },
@@ -502,11 +502,11 @@
       "name": "Compound USDC",
       "symbol": "cUSDC",
       "decimals": 8,
-      "address": "0x4a92E71227D294F041BD82dd8f78591B75140d63",
+      "address": "0x7523df3e7D12A3bD26D8A3a5E3196835819614D6",
       "initial_exchange_rate_mantissa": "200000000000000",
-      "admin": "0xE3e07F4F3E2F5A5286a99b9b8DEed08B8e07550B",
+      "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "0xb7a4F3E9097C08dA09517b5aB877F7a917224ede",
-      "contract": "CErc20Immutable"
+      "contract": "CErc20Delegator"
     },
     "cETH": {
       "name": "Compound ETH",
@@ -572,9 +572,9 @@
       "name": "Compound DAI",
       "symbol": "cDAI",
       "decimals": 8,
-      "address": "0xF0d0EB522cfa50B716B3b1604C4F0fA6f04376AD",
+      "address": "0x2E905d732696a78CD6fFB252Af293F2D97314fEe",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
-      "admin": "0xE3e07F4F3E2F5A5286a99b9b8DEed08B8e07550B",
+      "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa",
       "contract": "CErc20Delegator"
     }
