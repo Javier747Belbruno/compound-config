@@ -310,10 +310,23 @@
       "contract": "BAToken"
     },
     "MIOTA": {
-      "name": "MIOTA ERC20",
+      "name": "MIOTA",
       "symbol": "MIOTA",
       "decimals": 18,
-      "address": "0x23C9d7fE3B28a38A9A2aCaEEA027e8A703B2caB9"
+      "address": "0x23C9d7fE3B28a38A9A2aCaEEA027e8A703B2caB9",
+      "contract": "FaucetToken"
+    },
+    "SMR": {
+      "name": "SHIMMER",
+      "symbol": "SMR",
+      "decimals": 18,
+      "address": "0x3424bF7792381DC7A51775d72EE4fBA0F30263D5"
+    },
+    "POOLS": {
+      "name": "POOLS",
+      "symbol": "POOLS",
+      "decimals": 18,
+      "address": "0x096f5C9433F84Df8FF33A02bA947eB609db53262"
     },
     "cZRX": {
       "name": "Compound ZRX",
