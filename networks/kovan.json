@@ -309,6 +309,12 @@
       "address": "0x482dC9bB08111CB875109B075A40881E48aE02Cd",
       "contract": "BAToken"
     },
+    "MIOTA": {
+      "name": "MIOTA ERC20",
+      "symbol": "MIOTA",
+      "decimals": 18,
+      "address": "0x23C9d7fE3B28a38A9A2aCaEEA027e8A703B2caB9"
+    },
     "cZRX": {
       "name": "Compound ZRX",
       "symbol": "cZRX",
