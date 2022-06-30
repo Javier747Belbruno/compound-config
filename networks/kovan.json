@@ -44,7 +44,9 @@
     "oracle": "0x3D91BEc3Bb310153a3101f3FF9090508Ce81D015",
     "PriceFeedPoster": "0x83563ba7F1B093aae57Fe876f8D870f8a1508886",
     "PriceOracle": "0x3D91BEc3Bb310153a3101f3FF9090508Ce81D015",
-    "PriceOracleProxy": "0x3D91BEc3Bb310153a3101f3FF9090508Ce81D015"
+    "PriceOracleProxy": "0x3D91BEc3Bb310153a3101f3FF9090508Ce81D015",
+    "PriceData": "0x4819cFa37f57A1f2BCfa9daa8b971d00faf83600",
+    "GovernorBravo": "0x100044C436dfb66FF106157970bC89f243411Ffd"
   },
   "Blocks": {
     "CompoundLens": 32473951,
@@ -112,6 +114,18 @@
       "address": "0xCf4ae642fE14E44C6D5a7d81bD07Ec3124F8EDcA",
       "contract": "ComptrollerG1",
       "description": "Comptroller Description"
+    }
+  },
+  "Governor": {
+    "BravoDelegate": {
+      "name": "BravoDelegate",
+      "contract": "GovernorBravoDelegate",
+      "address": "0xc962c4f41e8eed1f957b9fa0965cb22db1827319"
+    },
+    "GovernorBravo": {
+      "name": "GovernorBravo",
+      "contract": "GovernorBravoDelegator",
+      "address": "0x100044C436dfb66FF106157970bC89f243411Ffd"
     }
   },
   "Timelock": {
