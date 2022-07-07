@@ -1,6 +1,6 @@
 {
   "Contracts": {
-    "COMP": "0x61460874a7196d6a22D1eE4922473664b3E95270",
+    "COMP": "0xAf053b32e6B8977099390018BEDEcB61810CF940",
     "CompoundLens": "0xb185762340952AD75ee22c27c49AfadA461698c6",
     "Base200bps_Slope2000bps_Jump20000bps_Kink90": "0x255559E3608a4251F04C227E57F24d9af921940E",
     "Base200bps_Slope3000bps": "0x7BDf14574c844cD9B75073f91Bb1aEAb44aB0529",
@@ -242,7 +242,7 @@
       "name": "Comp",
       "symbol": "COMP",
       "decimals": 18,
-      "address": "0x61460874a7196d6a22D1eE4922473664b3E95270",
+      "address": "0xAf053b32e6B8977099390018BEDEcB61810CF940",
       "contract": "Comp"
     },
     "ZRX": {
