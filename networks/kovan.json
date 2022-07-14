@@ -42,7 +42,7 @@
     "GovernorAlpha": "0x665a5f09716d63D9256934855b0CE2056a5C4Cf8",
     "GovernorBravo": "0xB188981477e663e08B5eA9412D79dffDf09F364a",
     "DSR_Kink_9000bps_Jump_12000bps_AssumedRF_20000bps": "0xe5318b00F1Bf6D9a8cdC4707290c157354738727",
-    "Maximillion": "0xC363f83902Ac614F318b04771d21D25aC0d73be5",
+    "Maximillion": "0x49769806A4432107E2953bE73Ce66868818337c4",
     "cDAI": "0x2E905d732696a78CD6fFB252Af293F2D97314fEe",
     "StdComptrollerG2": "0xd026627b0D6326dbA5f3c9ecbca1545dB8CD3486",
     "Base200bps_Slope2000bps_Jump20000bps_Kink90_bad": "0xC0421A129E775680BD22Af5143098075eD6B85d5",
@@ -477,7 +477,7 @@
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "0x482dC9bB08111CB875109B075A40881E48aE02Cd",
       "contract": "CErc20Immutable"
-    },   
+    },
     "cMIOTA": {
       "name": "Compound MIOTA",
       "symbol": "cMIOTA",
