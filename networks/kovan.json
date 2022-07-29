@@ -38,6 +38,7 @@
     "cMIOTA": "0x43ffb6e599bA5dFeC80011Cb34BF4BF91AB45047",
     "cSMR": "0x4BB1817FBd4b03938d49C9f3481a501296098329",
     "cPOOLS": "0xE54BB9F9916E889Fe219D63d54D75630Ef6091Ae",
+    "cCOMP": "0x66fB2F193797BD56B39554B7533889d69E4d16e6",
     "Reservoir": "0x2F8DD3598ba80D9Fb6A41215D41bd488f22fFf28",
     "GovernorAlpha": "0x665a5f09716d63D9256934855b0CE2056a5C4Cf8",
     "GovernorBravo": "0xB188981477e663e08B5eA9412D79dffDf09F364a",
@@ -71,6 +72,7 @@
   },
   "Blocks": {
     "COMP": 18750992,
+    "cCOMP": 31944836,
     "CompoundLens": 27881831,
     "Base200bps_Slope2000bps_Jump20000bps_Kink90": 18812463,
     "Base200bps_Slope3000bps": 18751027,
@@ -524,6 +526,15 @@
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa",
       "contract": "CErc20Delegator"
+    },
+    "cCOMP": {
+      "address": "0x66fB2F193797BD56B39554B7533889d69E4d16e6",
+      "contract": "CErc20Delegator",
+      "decimals": 8,
+      "initial_exchange_rate_mantissa": "20000000000000000",
+      "name": "Compound Collateral",
+      "symbol": "cCOMP",
+      "underlying": "0xAf053b32e6B8977099390018BEDEcB61810CF940"
     }
   },
   "InterestRateModel": {
