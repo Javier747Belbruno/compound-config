@@ -1,20 +1,17 @@
 {
   "Contracts": {
     "COMP": "0xAf053b32e6B8977099390018BEDEcB61810CF940",
-    "CompoundLens": "0xb185762340952AD75ee22c27c49AfadA461698c6",
+    "CompoundLens": "0xf41A73F2422A08466b3ffe1c459cB2255141380F",
     "Base200bps_Slope2000bps_Jump20000bps_Kink90": "0x255559E3608a4251F04C227E57F24d9af921940E",
     "Base200bps_Slope3000bps": "0x7BDf14574c844cD9B75073f91Bb1aEAb44aB0529",
     "Base500bps_Slope1200bps": "0x3e0dEb47A53efEdb77E908E15bc0E7bfF3eC24A0",
     "Base200bps_Slope1000bps": "0xC1B496A3a4Eee148AEefD86Af7E2AB1CeB53605C",
     "StdComptrollerG1": "0x670d9C026025Ce445D7517EBD9e3dE770527D44d",
-    "cErc20Delegate": "0x04356935Dc49753aD1Afb8EeebD0ae473eF1D6AB",
-    "ZRX": "0x162c44e53097e7B5aaE939b297ffFD6Bf90D1EE3",
-    "WBTC": "0xd3A691C852CDB01E281545A27064741F0B7f6825",
+    "cErc20Delegate": "0x99D560e3A82fA7737c3612c27A77D2253958181c",
+    "WBTC": "0x543aB9A79212F88123bEd094dd8778898e64A731",
+    "cWBTC": "0x63625338335540ad59FAB51aF7cfE7d251338Ef1",
     "USDT": "0x07de306FF27a2B630B1141956844eB1552B956B5",
     "USDC": "0xb7a4F3E9097C08dA09517b5aB877F7a917224ede",
-    "SAI": "0xD1308F63823221518Ec88EB209CBaa1ac182105f",
-    "REP": "0x50DD65531676F718B018De3dc48F92B53D756996",
-    "DAI": "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa",
     "BAT": "0x482dC9bB08111CB875109B075A40881E48aE02Cd",
     "MIOTA": "0x23C9d7fE3B28a38A9A2aCaEEA027e8A703B2caB9",
     "SMR": "0x3424bF7792381DC7A51775d72EE4fBA0F30263D5",
@@ -26,24 +23,20 @@
     "Jug": "0xcbB7718c9F39d05aEEDE1c472ca8Bf804b2f1EaD",
     "Pot": "0xEA190DBDC7adF265260ec4dA6e9675Fd4f5A78bb",
     "cDaiDelegate": "0xE1c3b6EC0380eFfe364636F534d04a7eE84414c6",
-    "Unitroller": "0xf1a1dFAefabA7d23CE64CCED4d32f72ed7c24Cbe",
-    "cZRX": "0x9e2ACD63f428f433130Bc606213Ba77F070D3CAF",
-    "cWBTC": "0xa1fAA15655B0e7b6B6470ED3d096390e6aD93Abb",
-    "cUSDT": "0x161D47172A9691D56a81aa09881aF4f2dfaE89f1",
-    "cUSDC": "0x7523df3e7D12A3bD26D8A3a5E3196835819614D6",
-    "cETH": "0xAe2f3405d7EcFF01346884C21CfA840A674Ea05D",
-    "cSAI": "0xb3f7fB482492f4220833De6D6bfCC81157214bEC",
-    "cREP": "0xA4eC170599a1Cf87240a35b9B1B8Ff823f448b57",
-    "cBAT": "0xE633B2fFd1A9fD5e78d857C39535Fce5B26A0c75",
-    "cMIOTA": "0x43ffb6e599bA5dFeC80011Cb34BF4BF91AB45047",
-    "cSMR": "0x4BB1817FBd4b03938d49C9f3481a501296098329",
-    "cPOOLS": "0xE54BB9F9916E889Fe219D63d54D75630Ef6091Ae",
+    "Unitroller": "0x6E5e139B7Ee2A160AFeEC5CA7768F8e20BA34163",
+    "cUSDT": "0xA703921A2aDbFf13d76FA5B7A112182ecA71E19D",
+    "cUSDC": "0x5303929520832DC4724Ea19c2C9e4B8031fe2237",
+    "cETH": "0xD4348996a05dEfB3DAB502b934f08FfAc863bD38",
+    "cBAT": "0x73F84eB9509F15750Aae482E26D004Ef799f1896",
+    "cMIOTA": "0x15EbE2915AD7eA1E4C7e3cdf3Aa85Dc4BA59D0B9",
+    "cSMR": "0x8F080347272317f57b2C4CBF5161B903BCc6B34b",
+    "cPOOLS": "0x8D951452c8ECA15354C7382d4d8b26988b0f1038",
     "cCOMP": "0x66fB2F193797BD56B39554B7533889d69E4d16e6",
     "Reservoir": "0x2F8DD3598ba80D9Fb6A41215D41bd488f22fFf28",
     "GovernorAlpha": "0x665a5f09716d63D9256934855b0CE2056a5C4Cf8",
     "GovernorBravo": "0xB188981477e663e08B5eA9412D79dffDf09F364a",
     "DSR_Kink_9000bps_Jump_12000bps_AssumedRF_20000bps": "0xe5318b00F1Bf6D9a8cdC4707290c157354738727",
-    "Maximillion": "0x49769806A4432107E2953bE73Ce66868818337c4",
+    "Maximillion": "0x290Aa7a7417140551A23577713015c24798A51bB",
     "cDAI": "0x2E905d732696a78CD6fFB252Af293F2D97314fEe",
     "StdComptrollerG2": "0xd026627b0D6326dbA5f3c9ecbca1545dB8CD3486",
     "Base200bps_Slope2000bps_Jump20000bps_Kink90_bad": "0xC0421A129E775680BD22Af5143098075eD6B85d5",
@@ -63,16 +56,15 @@
     "Pair_REP_ETH": "0x74853144626d7171FdeDfd3E0D4ed52d718A4eca",
     "Pair_BAT_ETH": "0x574300Af7ff45485254538303718Cc7B032d1f30",
     "Pair_ETH_USDC": "0x4e8d753812879407f8341105eef9a43fc8f350A2",
-    "oracle": "0xFCb1DaF54e4f14BDa96466ea381e90a2b075d124",
+    "oracle": "0x2ed7965529fc0e05AB12B238e6c1EcEefAd68473",
     "CrowdProposalFactory": "0x1CcD74460eE10f25c3A24c08972F39215393Fa58",
-    "Comptroller": "0xf1a1dFAefabA7d23CE64CCED4d32f72ed7c24Cbe",
+    "Comptroller": "0x6E5e139B7Ee2A160AFeEC5CA7768F8e20BA34163",
     "PriceFeedPoster": "0x83563ba7F1B093aae57Fe876f8D870f8a1508886",
-    "PriceOracle": "0xFCb1DaF54e4f14BDa96466ea381e90a2b075d124",
-    "PriceOracleProxy": "0xFCb1DaF54e4f14BDa96466ea381e90a2b075d124"
+    "PriceOracle": "0x2ed7965529fc0e05AB12B238e6c1EcEefAd68473",
+    "PriceOracleProxy": "0x2ed7965529fc0e05AB12B238e6c1EcEefAd68473"
   },
   "Blocks": {
     "COMP": 18750992,
-    "cCOMP": 31944836,
     "CompoundLens": 27881831,
     "Base200bps_Slope2000bps_Jump20000bps_Kink90": 18812463,
     "Base200bps_Slope3000bps": 18751027,
@@ -144,7 +136,7 @@
   },
   "Maximillion": {
     "description": "Maximillion",
-    "cEtherAddress": "0xAe2f3405d7EcFF01346884C21CfA840A674Ea05D",
+    "cEtherAddress": "0xD4348996a05dEfB3DAB502b934f08FfAc863bD38",
     "address": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf"
   },
   "CompoundLens": {
@@ -254,32 +246,18 @@
       "address": "0xAf053b32e6B8977099390018BEDEcB61810CF940",
       "contract": "Comp"
     },
-    "ZRX": {
-      "name": "0x Protocol Token",
-      "symbol": "ZRX",
-      "decimals": 18,
-      "address": "0x162c44e53097e7B5aaE939b297ffFD6Bf90D1EE3",
-      "contract": "ZRXToken"
-    },
     "USDT": {
       "name": "Tether",
       "symbol": "USDT",
       "decimals": 6,
-      "address": "0x07de306FF27a2B630B1141956844eB1552B956B5",
+      "address": "0x1aba0400A27377f9F70f0d9ee9Ecc101d346123a",
       "contract": "TetherToken"
     },
     "USDC": {
       "name": "USD Coin",
       "symbol": "USDC",
       "decimals": 6,
-      "address": "0xb7a4F3E9097C08dA09517b5aB877F7a917224ede",
-      "contract": "FaucetToken"
-    },
-    "DAI": {
-      "name": "Dai Stablecoin",
-      "symbol": "DAI",
-      "decimals": 18,
-      "address": "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa"
+      "address": "0xeae10C8919A6C43B154c9966d1e03dc482183858"
     },
     "BAT": {
       "name": "Basic Attention Token",
@@ -292,8 +270,7 @@
       "name": "MIOTA",
       "symbol": "MIOTA",
       "decimals": 18,
-      "address": "0x23C9d7fE3B28a38A9A2aCaEEA027e8A703B2caB9",
-      "contract": "FaucetToken"
+      "address": "0x23C9d7fE3B28a38A9A2aCaEEA027e8A703B2caB9"
     },
     "SMR": {
       "name": "SHIMMER",
@@ -307,41 +284,47 @@
       "decimals": 18,
       "address": "0x096f5C9433F84Df8FF33A02bA947eB609db53262"
     },
-    "cZRX": {
-      "name": "Compound ZRX",
-      "symbol": "cZRX",
+    "WBTC": {
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
       "decimals": 8,
-      "address": "0x9e2ACD63f428f433130Bc606213Ba77F070D3CAF",
+      "address": "0x543aB9A79212F88123bEd094dd8778898e64A731"
+    },
+    "cWBTC": {
+      "name": "Compound Wrapped BTC",
+      "symbol": "cWBTC",
+      "decimals": 8,
+      "address": "0x63625338335540ad59FAB51aF7cfE7d251338Ef1",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
-      "underlying": "0x162c44e53097e7B5aaE939b297ffFD6Bf90D1EE3",
+      "underlying": "0x543aB9A79212F88123bEd094dd8778898e64A731",
       "contract": "CErc20Delegator"
     },
     "cUSDT": {
       "name": "Compound USDT",
       "symbol": "cUSDT",
       "decimals": 8,
-      "address": "0x161D47172A9691D56a81aa09881aF4f2dfaE89f1",
+      "address": "0xA703921A2aDbFf13d76FA5B7A112182ecA71E19D",
       "initial_exchange_rate_mantissa": "200000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
-      "underlying": "0x07de306FF27a2B630B1141956844eB1552B956B5",
+      "underlying": "0x1aba0400A27377f9F70f0d9ee9Ecc101d346123a",
       "contract": "CErc20Delegator"
     },
     "cUSDC": {
       "name": "Compound USDC",
       "symbol": "cUSDC",
       "decimals": 8,
-      "address": "0x7523df3e7D12A3bD26D8A3a5E3196835819614D6",
+      "address": "0x5303929520832DC4724Ea19c2C9e4B8031fe2237",
       "initial_exchange_rate_mantissa": "200000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
-      "underlying": "0xb7a4F3E9097C08dA09517b5aB877F7a917224ede",
+      "underlying": "0xeae10C8919A6C43B154c9966d1e03dc482183858",
       "contract": "CErc20Delegator"
     },
     "cETH": {
       "name": "Compound ETH",
       "symbol": "cETH",
       "decimals": 8,
-      "address": "0xAe2f3405d7EcFF01346884C21CfA840A674Ea05D",
+      "address": "0xD4348996a05dEfB3DAB502b934f08FfAc863bD38",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "",
@@ -351,7 +334,7 @@
       "name": "Compound BAT",
       "symbol": "cBAT",
       "decimals": 8,
-      "address": "0xE633B2fFd1A9fD5e78d857C39535Fce5B26A0c75",
+      "address": "0x73F84eB9509F15750Aae482E26D004Ef799f1896",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "0x482dC9bB08111CB875109B075A40881E48aE02Cd",
@@ -361,7 +344,7 @@
       "name": "Compound MIOTA",
       "symbol": "cMIOTA",
       "decimals": 8,
-      "address": "0x43ffb6e599bA5dFeC80011Cb34BF4BF91AB45047",
+      "address": "0x15EbE2915AD7eA1E4C7e3cdf3Aa85Dc4BA59D0B9",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "0x23C9d7fE3B28a38A9A2aCaEEA027e8A703B2caB9",
@@ -371,7 +354,7 @@
       "name": "Compound SHIMMER",
       "symbol": "cSMR",
       "decimals": 8,
-      "address": "0x4BB1817FBd4b03938d49C9f3481a501296098329",
+      "address": "0x8F080347272317f57b2C4CBF5161B903BCc6B34b",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "0x3424bF7792381DC7A51775d72EE4fBA0F30263D5",
@@ -381,20 +364,10 @@
       "name": "Compound POOLS",
       "symbol": "cPOOLS",
       "decimals": 8,
-      "address": "0xE54BB9F9916E889Fe219D63d54D75630Ef6091Ae",
+      "address": "0x8D951452c8ECA15354C7382d4d8b26988b0f1038",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "0x096f5C9433F84Df8FF33A02bA947eB609db53262",
-      "contract": "CErc20Delegator"
-    },
-    "cDAI": {
-      "name": "Compound DAI",
-      "symbol": "cDAI",
-      "decimals": 8,
-      "address": "0x2E905d732696a78CD6fFB252Af293F2D97314fEe",
-      "initial_exchange_rate_mantissa": "200000000000000000000000000",
-      "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
-      "underlying": "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa",
       "contract": "CErc20Delegator"
     },
     "ETH": {
@@ -406,82 +379,62 @@
   },
   "CTokenDelegate": {
     "undefined": {
-      "address": "0xC8016288dB9dFE5a1cA2503879dCDE8807377186",
+      "address": "0x99D560e3A82fA7737c3612c27A77D2253958181c",
       "contract": "CErc20Delegate",
       "description": "Delegate CErc20Delegate"
     },
     "cMIOTADelegate": {
-      "address": "0x005f79882DB0796cC0403e956b8aC72aA3824886",
+      "address": "0x99D560e3A82fA7737c3612c27A77D2253958181c",
       "contract": "CErc20Delegate",
       "description": "Standard CErc20 Delegate"
     },
     "cSMRDelegate": {
-      "address": "0xA643ef3CD729C52c39c60FDE7Be42FbCb249AB6d",
+      "address": "0x99D560e3A82fA7737c3612c27A77D2253958181c",
       "contract": "CErc20Delegate",
       "description": "Standard CErc20 Delegate"
     },
     "cPOOLSDelegate": {
-      "address": "0x5510555F7d70F6Bd6cec3CB789ECC74486179b78",
+      "address": "0x99D560e3A82fA7737c3612c27A77D2253958181c",
       "contract": "CErc20Delegate",
       "description": "Standard CErc20 Delegate"
     }
   },
   "cTokens": {
-    "cZRX": {
-      "name": "Compound ZRX",
-      "symbol": "cZRX",
-      "decimals": 8,
-      "address": "0x9e2ACD63f428f433130Bc606213Ba77F070D3CAF",
-      "initial_exchange_rate_mantissa": "200000000000000000000000000",
-      "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
-      "underlying": "0x162c44e53097e7B5aaE939b297ffFD6Bf90D1EE3",
-      "contract": "CErc20Delegator"
-    },
     "cUSDT": {
       "name": "Compound USDT",
       "symbol": "cUSDT",
       "decimals": 8,
-      "address": "0x161D47172A9691D56a81aa09881aF4f2dfaE89f1",
+      "address": "0xA703921A2aDbFf13d76FA5B7A112182ecA71E19D",
       "initial_exchange_rate_mantissa": "200000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
-      "underlying": "0x07de306FF27a2B630B1141956844eB1552B956B5",
+      "underlying": "0x1aba0400A27377f9F70f0d9ee9Ecc101d346123a",
       "contract": "CErc20Delegator"
     },
     "cUSDC": {
       "name": "Compound USDC",
       "symbol": "cUSDC",
       "decimals": 8,
-      "address": "0x7523df3e7D12A3bD26D8A3a5E3196835819614D6",
+      "address": "0x5303929520832DC4724Ea19c2C9e4B8031fe2237",
       "initial_exchange_rate_mantissa": "200000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
-      "underlying": "0xb7a4F3E9097C08dA09517b5aB877F7a917224ede",
+      "underlying": "0xeae10C8919A6C43B154c9966d1e03dc482183858",
       "contract": "CErc20Delegator"
     },
     "cETH": {
       "name": "Compound ETH",
       "symbol": "cETH",
       "decimals": 8,
-      "address": "0xAe2f3405d7EcFF01346884C21CfA840A674Ea05D",
+      "address": "0xD4348996a05dEfB3DAB502b934f08FfAc863bD38",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "",
       "contract": "CEther"
     },
-    "cSAI": {
-      "name": "Compound SAI",
-      "symbol": "cSAI",
-      "decimals": 8,
-      "address": "0xb3f7fB482492f4220833De6D6bfCC81157214bEC",
-      "initial_exchange_rate_mantissa": "200000000000000000000000000",
-      "admin": "0xE3e07F4F3E2F5A5286a99b9b8DEed08B8e07550B",
-      "underlying": "0xD1308F63823221518Ec88EB209CBaa1ac182105f",
-      "contract": "CErc20Immutable"
-    },
     "cBAT": {
       "name": "Compound BAT",
       "symbol": "cBAT",
       "decimals": 8,
-      "address": "0xE633B2fFd1A9fD5e78d857C39535Fce5B26A0c75",
+      "address": "0x73F84eB9509F15750Aae482E26D004Ef799f1896",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "0x482dC9bB08111CB875109B075A40881E48aE02Cd",
@@ -491,7 +444,7 @@
       "name": "Compound MIOTA",
       "symbol": "cMIOTA",
       "decimals": 8,
-      "address": "0x43ffb6e599bA5dFeC80011Cb34BF4BF91AB45047",
+      "address": "0x15EbE2915AD7eA1E4C7e3cdf3Aa85Dc4BA59D0B9",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "0x23C9d7fE3B28a38A9A2aCaEEA027e8A703B2caB9",
@@ -501,7 +454,7 @@
       "name": "Compound SHIMMER",
       "symbol": "cSMR",
       "decimals": 8,
-      "address": "0x4BB1817FBd4b03938d49C9f3481a501296098329",
+      "address": "0x8F080347272317f57b2C4CBF5161B903BCc6B34b",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "0x3424bF7792381DC7A51775d72EE4fBA0F30263D5",
@@ -511,30 +464,21 @@
       "name": "Compound POOLS",
       "symbol": "cPOOLS",
       "decimals": 8,
-      "address": "0xE54BB9F9916E889Fe219D63d54D75630Ef6091Ae",
+      "address": "0x8D951452c8ECA15354C7382d4d8b26988b0f1038",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "0x096f5C9433F84Df8FF33A02bA947eB609db53262",
       "contract": "CErc20Delegator"
     },
-    "cDAI": {
-      "name": "Compound DAI",
-      "symbol": "cDAI",
+    "cWBTC": {
+      "name": "Compound Wrapped BTC",
+      "symbol": "cWBTC",
       "decimals": 8,
-      "address": "0x2E905d732696a78CD6fFB252Af293F2D97314fEe",
+      "address": "0x63625338335540ad59FAB51aF7cfE7d251338Ef1",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
-      "underlying": "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa",
+      "underlying": "0x543aB9A79212F88123bEd094dd8778898e64A731",
       "contract": "CErc20Delegator"
-    },
-    "cCOMP": {
-      "address": "0x66fB2F193797BD56B39554B7533889d69E4d16e6",
-      "contract": "CErc20Delegator",
-      "decimals": 8,
-      "initial_exchange_rate_mantissa": "20000000000000000",
-      "name": "Compound Collateral",
-      "symbol": "cCOMP",
-      "underlying": "0xAf053b32e6B8977099390018BEDEcB61810CF940"
     }
   },
   "InterestRateModel": {
@@ -603,7 +547,7 @@
   },
   "PriceOracle": {
     "description": "SimplePriceOracle",
-    "address": "0xFCb1DaF54e4f14BDa96466ea381e90a2b075d124"
+    "address": "0x2ed7965529fc0e05AB12B238e6c1EcEefAd68473"
   },
   "PriceOracleProxy": {}
 }
