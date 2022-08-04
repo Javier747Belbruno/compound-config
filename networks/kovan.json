@@ -9,7 +9,6 @@
     "StdComptrollerG1": "0x670d9C026025Ce445D7517EBD9e3dE770527D44d",
     "cErc20Delegate": "0x99D560e3A82fA7737c3612c27A77D2253958181c",
     "WBTC": "0x543aB9A79212F88123bEd094dd8778898e64A731",
-    "cWBTC": "0x63625338335540ad59FAB51aF7cfE7d251338Ef1",
     "USDT": "0x1aba0400A27377f9F70f0d9ee9Ecc101d346123a",
     "USDC": "0xeae10C8919A6C43B154c9966d1e03dc482183858",
     "BAT": "0x482dC9bB08111CB875109B075A40881E48aE02Cd",
@@ -24,6 +23,7 @@
     "Pot": "0xEA190DBDC7adF265260ec4dA6e9675Fd4f5A78bb",
     "cDaiDelegate": "0xE1c3b6EC0380eFfe364636F534d04a7eE84414c6",
     "Unitroller": "0x6E5e139B7Ee2A160AFeEC5CA7768F8e20BA34163",
+    "cWBTC": "0x63625338335540ad59FAB51aF7cfE7d251338Ef1",
     "cUSDT": "0xA703921A2aDbFf13d76FA5B7A112182ecA71E19D",
     "cUSDC": "0x5303929520832DC4724Ea19c2C9e4B8031fe2237",
     "cETH": "0xD4348996a05dEfB3DAB502b934f08FfAc863bD38",
@@ -250,8 +250,7 @@
       "name": "Tether",
       "symbol": "USDT",
       "decimals": 6,
-      "address": "0x1aba0400A27377f9F70f0d9ee9Ecc101d346123a",
-      "contract": "TetherToken"
+      "address": "0x1aba0400A27377f9F70f0d9ee9Ecc101d346123a"
     },
     "USDC": {
       "name": "USD Coin",
@@ -438,7 +437,7 @@
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "0x482dC9bB08111CB875109B075A40881E48aE02Cd",
-      "contract": "CErc20Immutable"
+      "contract": "CErc20Delegator"
     },
     "cMIOTA": {
       "name": "Compound MIOTA",
