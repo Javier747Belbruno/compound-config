@@ -1,8 +1,8 @@
 {
   "Contracts": {
-    "COMP": "0xAf053b32e6B8977099390018BEDEcB61810CF940",
+    "COMP": "0x621D62F3b1bf8910a952784cc20ce90523C0c8B6",
     "CompoundLens": "0xf41A73F2422A08466b3ffe1c459cB2255141380F",
-    "Base200bps_Slope2000bps_Jump20000bps_Kink90": "0x255559E3608a4251F04C227E57F24d9af921940E",
+    "Base200bps_Slope2000bps_Jump20000bps_Kink90": "0x998A7DE7663d9bb67f12DA29582F383Bc3026F13",
     "Base200bps_Slope3000bps": "0x7BDf14574c844cD9B75073f91Bb1aEAb44aB0529",
     "Base500bps_Slope1200bps": "0x3e0dEb47A53efEdb77E908E15bc0E7bfF3eC24A0",
     "Base200bps_Slope1000bps": "0xC1B496A3a4Eee148AEefD86Af7E2AB1CeB53605C",
@@ -19,9 +19,6 @@
     "PriceFeed": "0xbc50306b26df770577920E0D5233420F91Bfe1dc",
     "StdComptrollerG3": "0xbDF4D9A65023CAf0DaDa604cf46C44D5aab0bb0C",
     "Timelock": "0x116b179b1164b2e9921d4E49fFE1C0F34712C157",
-    "Jug": "0xcbB7718c9F39d05aEEDE1c472ca8Bf804b2f1EaD",
-    "Pot": "0xEA190DBDC7adF265260ec4dA6e9675Fd4f5A78bb",
-    "cDaiDelegate": "0xE1c3b6EC0380eFfe364636F534d04a7eE84414c6",
     "Unitroller": "0x6E5e139B7Ee2A160AFeEC5CA7768F8e20BA34163",
     "cWBTC": "0x63625338335540ad59FAB51aF7cfE7d251338Ef1",
     "cUSDT": "0xA703921A2aDbFf13d76FA5B7A112182ecA71E19D",
@@ -31,19 +28,16 @@
     "cMIOTA": "0x15EbE2915AD7eA1E4C7e3cdf3Aa85Dc4BA59D0B9",
     "cSMR": "0x8F080347272317f57b2C4CBF5161B903BCc6B34b",
     "cPOOLS": "0x8D951452c8ECA15354C7382d4d8b26988b0f1038",
-    "cCOMP": "0x66fB2F193797BD56B39554B7533889d69E4d16e6",
-    "Reservoir": "0x2F8DD3598ba80D9Fb6A41215D41bd488f22fFf28",
+    "cCOMP": "0x51A8F70e5E7f861B1E869026fA0f02577D3E7998",
+    "Reservoir": "0x1Ca53810242588142d978F8847da0f3ff062E252",
     "GovernorAlpha": "0x665a5f09716d63D9256934855b0CE2056a5C4Cf8",
     "GovernorBravo": "0xB188981477e663e08B5eA9412D79dffDf09F364a",
     "DSR_Kink_9000bps_Jump_12000bps_AssumedRF_20000bps": "0xe5318b00F1Bf6D9a8cdC4707290c157354738727",
     "Maximillion": "0x290Aa7a7417140551A23577713015c24798A51bB",
-    "cDAI": "0x2E905d732696a78CD6fFB252Af293F2D97314fEe",
     "StdComptrollerG2": "0xd026627b0D6326dbA5f3c9ecbca1545dB8CD3486",
     "Base200bps_Slope2000bps_Jump20000bps_Kink90_bad": "0xC0421A129E775680BD22Af5143098075eD6B85d5",
     "Base200bps_Slope2000bps_Jump20000bps_Kink90_bad_2": "0x059965e18ae254954b500f198876bd43afc1ddec",
     "StdComptrollerG4": "0x35cf8e1f268680db66119dae1bffea136491939a",
-    "KNC": "0x99e467eCe562E00D1e8f17F67E5485CF97b306EB",
-    "LINK": "0x1674E2c454275bC1AE9EA30A110d6C937039eA9c",
     "PriceData": "0x78ef91b764018f967A69E58E343223a2B2ef8B05",
     "WETH": "0xd0a1e359811322d97991e03f863a0c30c2cf029c",
     "Uniswap": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
@@ -65,6 +59,7 @@
   },
   "Blocks": {
     "COMP": 18750992,
+    "cCOMP": 31944836,
     "CompoundLens": 27881831,
     "Base200bps_Slope2000bps_Jump20000bps_Kink90": 18812463,
     "Base200bps_Slope3000bps": 18751027,
@@ -243,7 +238,7 @@
       "name": "Comp",
       "symbol": "COMP",
       "decimals": 18,
-      "address": "0xAf053b32e6B8977099390018BEDEcB61810CF940",
+      "address": "0x621D62F3b1bf8910a952784cc20ce90523C0c8B6",
       "contract": "Comp"
     },
     "USDT": {
@@ -478,6 +473,15 @@
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "0x543aB9A79212F88123bEd094dd8778898e64A731",
       "contract": "CErc20Delegator"
+    },
+    "cCOMP": {
+      "address": "0x51A8F70e5E7f861B1E869026fA0f02577D3E7998",
+      "contract": "CErc20Delegator",
+      "decimals": 8,
+      "initial_exchange_rate_mantissa": "20000000000000000",
+      "name": "Compound Collateral",
+      "symbol": "cCOMP",
+      "underlying": "0x621D62F3b1bf8910a952784cc20ce90523C0c8B6"
     }
   },
   "InterestRateModel": {
@@ -485,7 +489,7 @@
       "name": "Base200bps_Slope2000bps_Jump20000bps_Kink90",
       "contract": "JumpRateModel",
       "description": "JumpRateModel  baseRate=20000000000000000 multiplier=200000000000000000 jump=2000000000000000000 kink=900000000000000000",
-      "address": "0x4AD91cf098d3C9e61c6C900c011c39bf29C65B5a",
+      "address": "0x998A7DE7663d9bb67f12DA29582F383Bc3026F13",
       "base": "20000000000000000",
       "slope": "200000000000000000",
       "jump": "2000000000000000000",
