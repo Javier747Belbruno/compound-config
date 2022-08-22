@@ -1,7 +1,7 @@
 {
   "Contracts": {
-    "COMP": "0x621D62F3b1bf8910a952784cc20ce90523C0c8B6",
-    "CompoundLens": "0xf41A73F2422A08466b3ffe1c459cB2255141380F",
+    "COMP": "0xFEC326f9cc13B5dCf19601eE0983f807A1bFaadB",
+    "CompoundLens": "0x33Ff3aFf92B855d4c73BD9313509Db5993143086",
     "Base200bps_Slope2000bps_Jump20000bps_Kink90": "0x998A7DE7663d9bb67f12DA29582F383Bc3026F13",
     "Base200bps_Slope3000bps": "0x7BDf14574c844cD9B75073f91Bb1aEAb44aB0529",
     "Base500bps_Slope1200bps": "0x3e0dEb47A53efEdb77E908E15bc0E7bfF3eC24A0",
@@ -19,7 +19,7 @@
     "PriceFeed": "0xbc50306b26df770577920E0D5233420F91Bfe1dc",
     "StdComptrollerG3": "0xbDF4D9A65023CAf0DaDa604cf46C44D5aab0bb0C",
     "Timelock": "0x116b179b1164b2e9921d4E49fFE1C0F34712C157",
-    "Unitroller": "0x6E5e139B7Ee2A160AFeEC5CA7768F8e20BA34163",
+    "Unitroller": "0x3354a1230956ccF47e188972452Ed3430A728428",
     "cWBTC": "0x63625338335540ad59FAB51aF7cfE7d251338Ef1",
     "cUSDT": "0xA703921A2aDbFf13d76FA5B7A112182ecA71E19D",
     "cUSDC": "0x5303929520832DC4724Ea19c2C9e4B8031fe2237",
@@ -50,12 +50,12 @@
     "Pair_REP_ETH": "0x74853144626d7171FdeDfd3E0D4ed52d718A4eca",
     "Pair_BAT_ETH": "0x574300Af7ff45485254538303718Cc7B032d1f30",
     "Pair_ETH_USDC": "0x4e8d753812879407f8341105eef9a43fc8f350A2",
-    "oracle": "0x2ed7965529fc0e05AB12B238e6c1EcEefAd68473",
+    "oracle": "0xAe2f3405d7EcFF01346884C21CfA840A674Ea05D",
     "CrowdProposalFactory": "0x1CcD74460eE10f25c3A24c08972F39215393Fa58",
-    "Comptroller": "0x6E5e139B7Ee2A160AFeEC5CA7768F8e20BA34163",
+    "Comptroller": "0x3354a1230956ccF47e188972452Ed3430A728428",
     "PriceFeedPoster": "0x83563ba7F1B093aae57Fe876f8D870f8a1508886",
-    "PriceOracle": "0x2ed7965529fc0e05AB12B238e6c1EcEefAd68473",
-    "PriceOracleProxy": "0x2ed7965529fc0e05AB12B238e6c1EcEefAd68473"
+    "PriceOracle": "0xAe2f3405d7EcFF01346884C21CfA840A674Ea05D",
+    "PriceOracleProxy": "0xAe2f3405d7EcFF01346884C21CfA840A674Ea05D"
   },
   "Blocks": {
     "COMP": 18750992,
@@ -140,7 +140,7 @@
   },
   "Unitroller": {
     "description": "Unitroller",
-    "address": "0xf1a1dFAefabA7d23CE64CCED4d32f72ed7c24Cbe"
+    "address": "0x3354a1230956ccF47e188972452Ed3430A728428"
   },
   "Comptroller": {
     "StdComptrollerG1": {
@@ -238,7 +238,7 @@
       "name": "Comp",
       "symbol": "COMP",
       "decimals": 18,
-      "address": "0x621D62F3b1bf8910a952784cc20ce90523C0c8B6",
+      "address": "0xFEC326f9cc13B5dCf19601eE0983f807A1bFaadB",
       "contract": "Comp"
     },
     "USDT": {
@@ -481,7 +481,7 @@
       "initial_exchange_rate_mantissa": "20000000000000000",
       "name": "Compound Collateral",
       "symbol": "cCOMP",
-      "underlying": "0x621D62F3b1bf8910a952784cc20ce90523C0c8B6"
+      "underlying": "0xFEC326f9cc13B5dCf19601eE0983f807A1bFaadB"
     }
   },
   "InterestRateModel": {
@@ -550,7 +550,7 @@
   },
   "PriceOracle": {
     "description": "SimplePriceOracle",
-    "address": "0x2ed7965529fc0e05AB12B238e6c1EcEefAd68473"
+    "address": "0xAe2f3405d7EcFF01346884C21CfA840A674Ea05D"
   },
   "PriceOracleProxy": {}
 }
