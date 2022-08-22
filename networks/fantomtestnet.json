@@ -23,7 +23,7 @@
     "cWBTC": "0x63625338335540ad59FAB51aF7cfE7d251338Ef1",
     "cUSDT": "0xA703921A2aDbFf13d76FA5B7A112182ecA71E19D",
     "cUSDC": "0x5303929520832DC4724Ea19c2C9e4B8031fe2237",
-    "cETH": "0xD4348996a05dEfB3DAB502b934f08FfAc863bD38",
+    "cETH": "0x7f338cEAE003Acc4cE4D39e7104d8ba1ecDFAB7A",
     "cBAT": "0x73F84eB9509F15750Aae482E26D004Ef799f1896",
     "cMIOTA": "0x15EbE2915AD7eA1E4C7e3cdf3Aa85Dc4BA59D0B9",
     "cSMR": "0x8F080347272317f57b2C4CBF5161B903BCc6B34b",
@@ -131,7 +131,7 @@
   },
   "Maximillion": {
     "description": "Maximillion",
-    "cEtherAddress": "0xD4348996a05dEfB3DAB502b934f08FfAc863bD38",
+    "cEtherAddress": "0x7f338cEAE003Acc4cE4D39e7104d8ba1ecDFAB7A",
     "address": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf"
   },
   "CompoundLens": {
@@ -315,10 +315,10 @@
       "contract": "CErc20Delegator"
     },
     "cETH": {
-      "name": "Compound ETH",
-      "symbol": "cETH",
+      "name": "Compound Fantom",
+      "symbol": "cFTM",
       "decimals": 8,
-      "address": "0xD4348996a05dEfB3DAB502b934f08FfAc863bD38",
+      "address": "0x7f338cEAE003Acc4cE4D39e7104d8ba1ecDFAB7A",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "",
@@ -415,10 +415,10 @@
       "contract": "CErc20Delegator"
     },
     "cETH": {
-      "name": "Compound ETH",
-      "symbol": "cETH",
+      "name": "Compound Fantom",
+      "symbol": "cFTM",
       "decimals": 8,
-      "address": "0xD4348996a05dEfB3DAB502b934f08FfAc863bD38",
+      "address": "0x7f338cEAE003Acc4cE4D39e7104d8ba1ecDFAB7A",
       "initial_exchange_rate_mantissa": "200000000000000000000000000",
       "admin": "0xf7Ee22cee0d9cfe97b0c84c15ee03458D41C5bBf",
       "underlying": "",
