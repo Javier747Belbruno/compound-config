@@ -7,7 +7,7 @@
     "Base500bps_Slope1200bps": "0x3e0dEb47A53efEdb77E908E15bc0E7bfF3eC24A0",
     "Base200bps_Slope1000bps": "0xC1B496A3a4Eee148AEefD86Af7E2AB1CeB53605C",
     "StdComptrollerG1": "0x670d9C026025Ce445D7517EBD9e3dE770527D44d",
-    "cErc20Delegate": "0x99D560e3A82fA7737c3612c27A77D2253958181c",
+    "cErc20Delegate": "0xc492537AE4469A574D5A3879Ecf7eC455bFFbD6a",
     "WBTC": "0x543aB9A79212F88123bEd094dd8778898e64A731",
     "USDT": "0x1aba0400A27377f9F70f0d9ee9Ecc101d346123a",
     "USDC": "0xeae10C8919A6C43B154c9966d1e03dc482183858",
@@ -21,10 +21,10 @@
     "Timelock": "0x116b179b1164b2e9921d4E49fFE1C0F34712C157",
     "Unitroller": "0x3354a1230956ccF47e188972452Ed3430A728428",
     "cWBTC": "0x63625338335540ad59FAB51aF7cfE7d251338Ef1",
-    "cUSDT": "0xA703921A2aDbFf13d76FA5B7A112182ecA71E19D",
-    "cUSDC": "0x5303929520832DC4724Ea19c2C9e4B8031fe2237",
+    "cUSDT": "0x67869C3114F0c7B7066CA2f66F73De3A57A5791a",
+    "cUSDC": "0xD1e9C428F5a6Bc4A4E5b4C78246690737cE26647",
     "cETH": "0x7f338cEAE003Acc4cE4D39e7104d8ba1ecDFAB7A",
-    "cBAT": "0x73F84eB9509F15750Aae482E26D004Ef799f1896",
+    "cBAT": "0xaEf305FBa79cB914E7a7BFFA0CD1a41E6Aa9eD8c",
     "cMIOTA": "0x15EbE2915AD7eA1E4C7e3cdf3Aa85Dc4BA59D0B9",
     "cSMR": "0x8F080347272317f57b2C4CBF5161B903BCc6B34b",
     "cPOOLS": "0x8D951452c8ECA15354C7382d4d8b26988b0f1038",
@@ -33,7 +33,7 @@
     "GovernorAlpha": "0x665a5f09716d63D9256934855b0CE2056a5C4Cf8",
     "GovernorBravo": "0xB188981477e663e08B5eA9412D79dffDf09F364a",
     "DSR_Kink_9000bps_Jump_12000bps_AssumedRF_20000bps": "0xe5318b00F1Bf6D9a8cdC4707290c157354738727",
-    "Maximillion": "0x290Aa7a7417140551A23577713015c24798A51bB",
+    "Maximillion": "0x8D611cb22FF49A440D5eE1ba244ae8ED8570b316",
     "StdComptrollerG2": "0xd026627b0D6326dbA5f3c9ecbca1545dB8CD3486",
     "Base200bps_Slope2000bps_Jump20000bps_Kink90_bad": "0xC0421A129E775680BD22Af5143098075eD6B85d5",
     "Base200bps_Slope2000bps_Jump20000bps_Kink90_bad_2": "0x059965e18ae254954b500f198876bd43afc1ddec",
@@ -373,22 +373,22 @@
   },
   "CTokenDelegate": {
     "undefined": {
-      "address": "0x99D560e3A82fA7737c3612c27A77D2253958181c",
+      "address": "0xc492537AE4469A574D5A3879Ecf7eC455bFFbD6a",
       "contract": "CErc20Delegate",
       "description": "Delegate CErc20Delegate"
     },
     "cMIOTADelegate": {
-      "address": "0x99D560e3A82fA7737c3612c27A77D2253958181c",
+      "address": "0xc492537AE4469A574D5A3879Ecf7eC455bFFbD6a",
       "contract": "CErc20Delegate",
       "description": "Standard CErc20 Delegate"
     },
     "cSMRDelegate": {
-      "address": "0x99D560e3A82fA7737c3612c27A77D2253958181c",
+      "address": "0xc492537AE4469A574D5A3879Ecf7eC455bFFbD6a",
       "contract": "CErc20Delegate",
       "description": "Standard CErc20 Delegate"
     },
     "cPOOLSDelegate": {
-      "address": "0x99D560e3A82fA7737c3612c27A77D2253958181c",
+      "address": "0xc492537AE4469A574D5A3879Ecf7eC455bFFbD6a",
       "contract": "CErc20Delegate",
       "description": "Standard CErc20 Delegate"
     }
