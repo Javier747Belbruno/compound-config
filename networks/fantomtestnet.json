@@ -346,7 +346,7 @@
       "underlying": "0x923492aab803b5a30A409f7D4C389e92BE06f2BD",
       "contract": "CErc20Delegator"
     },
-    "ETH": {
+    "FTM": {
       "name": "Fantom",
       "symbol": "FTM",
       "decimals": 18,
