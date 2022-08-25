@@ -347,8 +347,8 @@
       "contract": "CErc20Delegator"
     },
     "ETH": {
-      "name": "Ether",
-      "symbol": "ETH",
+      "name": "Fantom",
+      "symbol": "FTM",
       "decimals": 18,
       "address": "0x0000000000000000000000000000000000000000"
     }
